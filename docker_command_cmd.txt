@@ -1,0 +1,10 @@
+# to prepare maggie - list of ingredients = DockerFile
+# Using DockerFile we build docker image
+# docker image is read only template - all maggie ingredients in the polybag
+# Using docker image - we create docker container (lightweight, executable software package)
+
+# location should be where DockerFile is present
+# image name : devashish_demo_docker_py
+docker build -t devashish_demo_docker_py .
+docker images
+docker run devashish_demo_docker_py

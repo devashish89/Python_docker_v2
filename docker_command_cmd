@@ -1,0 +1,5 @@
+# location should be where DockerFile is present
+# image name : devashish_demo_docker_py
+docker build -t devashish_demo_docker_py .
+docker images
+docker run devashish_demo_docker_py
